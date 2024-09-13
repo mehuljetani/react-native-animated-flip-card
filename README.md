@@ -7,7 +7,7 @@
 <body>
   <h1>react-native-animated-flip-card</h1>
   <p>A React Native component that provides a customizable, animated flip card with both horizontal and vertical flipping directions. Perfect for creating interactive and engaging user interfaces.</p>
-   <h1>Features:</h1>
+   <h2>Features:</h2>
    <p>Flip animation (horizontal or vertical)</p>
    <p>Customizable content for both front and back sides</p>
    <p>Supports images and text styling</p>
