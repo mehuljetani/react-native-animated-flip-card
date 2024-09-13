@@ -91,7 +91,7 @@ export default App;
   <p>Horizontal</p>
   <img src="./src/assets/horizontal.gif" alt="Demo GIF" style="width: 160px; height: 350px">
 
-  <p>Verticle</p>
+  <p>Vertical</p>
   <img src="./src/assets/verticle.gif" alt="Demo GIF" style="width: 160px; height: 350px">
 
   <h2>Props</h2>
