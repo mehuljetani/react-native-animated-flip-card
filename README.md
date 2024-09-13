@@ -7,6 +7,11 @@
 <body>
   <h1>react-native-animated-flip-card</h1>
   <p>A React Native component that provides a customizable, animated flip card with both horizontal and vertical flipping directions. Perfect for creating interactive and engaging user interfaces.</p>
+   <h1>Features:</h1>
+   <p>Flip animation (horizontal or vertical)</p>
+   <p>Customizable content for both front and back sides</p>
+   <p>Supports images and text styling</p>
+   <p>Configurable animation duration and easing</p>
 
   <h2>Installation</h2>
   <p>To install the package, use npm or yarn:</p>
@@ -90,84 +95,89 @@ export default App;
   <img src="./src/assets/verticle.gif" alt="Demo GIF" style="width: 160px; height: 350px">
 
   <h2>Props</h2>
-  <table border="1" cellspacing="0" cellpadding="8">
-    <thead>
-      <tr>
-        <th>Prop</th>
-        <th>Type</th>
-        <th>Default</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><code>title</code></td>
-        <td><code>string</code></td>
-        <td><code>""</code></td>
-        <td>The text displayed on the front side of the card.</td>
-      </tr>
-      <tr>
-        <td><code>description</code></td>
-        <td><code>string</code></td>
-        <td><code>""</code></td>
-        <td>The description displayed on the front side of the card.</td>
-      </tr>
-      <tr>
-        <td><code>backTitle</code></td>
-        <td><code>string</code></td>
-        <td><code>""</code></td>
-        <td>The text displayed on the back side of the card.</td>
-      </tr>
-      <tr>
-        <td><code>backDescription</code></td>
-        <td><code>string</code></td>
-        <td><code>""</code></td>
-        <td>The description displayed on the back side of the card.</td>
-      </tr>
-      <tr>
-        <td><code>imageUrl</code></td>
-        <td><code>string</code></td>
-        <td><code>""</code></td>
-        <td>The URL of the image displayed on the front side of the card.</td>
-      </tr>
-      <tr>
-        <td><code>backImageUrl</code></td>
-        <td><code>string</code></td>
-        <td><code>""</code></td>
-        <td>The URL of the image displayed on the back side of the card.</td>
-      </tr>
-      <tr>
-        <td><code>cardStyle</code></td>
-        <td><code>StyleProp&lt;ViewStyle&gt;</code></td>
-        <td><code>{}</code></td>
-        <td>Custom style for the card container.</td>
-      </tr>
-      <tr>
-        <td><code>titleStyle</code></td>
-        <td><code>StyleProp&lt;TextStyle&gt;</code></td>
-        <td><code>{}</code></td>
-        <td>Custom style for the title text.</td>
-      </tr>
-      <tr>
-        <td><code>imageStyle</code></td>
-        <td><code>StyleProp&lt;ImageStyle&gt;</code></td>
-        <td><code>{}</code></td>
-        <td>Custom style for the image.</td>
-      </tr>
-      <tr>
-        <td><code>descriptionStyle</code></td>
-        <td><code>StyleProp&lt;TextStyle&gt;</code></td>
-        <td><code>{}</code></td>
-        <td>Custom style for the description text.</td>
-      </tr>
-      <tr>
-        <td><code>flipDirection</code></td>
-        <td><code>'horizontal' | 'vertical'</code></td>
-        <td><code>'horizontal'</code></td>
-        <td>Direction of the flip animation.</td>
-      </tr>
-    </tbody>
-  </table>
+   <table
+          border="1"
+          cellspacing="0"
+          cellpadding="8"
+          style="width: 100%; border-collapse: collapse"
+        >
+          <thead>
+            <tr>
+              <th>Prop</th>
+              <th>Type</th>
+              <th>Default</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>title</code></td>
+              <td><code>string</code></td>
+              <td><code>""</code></td>
+              <td>The text for front side.</td>
+            </tr>
+            <tr>
+              <td><code>description</code></td>
+              <td><code>string</code></td>
+              <td><code>""</code></td>
+              <td>The description front side.</td>
+            </tr>
+            <tr>
+              <td><code>backTitle</code></td>
+              <td><code>string</code></td>
+              <td><code>""</code></td>
+              <td>The text for back side.</td>
+            </tr>
+            <tr>
+              <td><code>backDescription</code></td>
+              <td><code>string</code></td>
+              <td><code>""</code></td>
+              <td>The description back side.</td>
+            </tr>
+            <tr>
+              <td><code>imageUrl</code></td>
+              <td><code>string</code></td>
+              <td><code>""</code></td>
+              <td>The URL of the image front side.</td>
+            </tr>
+            <tr>
+              <td><code>backImageUrl</code></td>
+              <td><code>string</code></td>
+              <td><code>""</code></td>
+              <td>The URL of the image back side.</td>
+            </tr>
+            <tr>
+              <td><code>cardStyle</code></td>
+              <td><code>StyleProp&lt;ViewStyle&gt;</code></td>
+              <td><code>{}</code></td>
+              <td>Custom style for the card container.</td>
+            </tr>
+            <tr>
+              <td><code>titleStyle</code></td>
+              <td><code>StyleProp&lt;TextStyle&gt;</code></td>
+              <td><code>{}</code></td>
+              <td>Custom style for the title text.</td>
+            </tr>
+            <tr>
+              <td><code>imageStyle</code></td>
+              <td><code>StyleProp&lt;ImageStyle&gt;</code></td>
+              <td><code>{}</code></td>
+              <td>Custom style for the image.</td>
+            </tr>
+            <tr>
+              <td><code>descriptionStyle</code></td>
+              <td><code>StyleProp&lt;TextStyle&gt;</code></td>
+              <td><code>{}</code></td>
+              <td>Custom style for the description text.</td>
+            </tr>
+            <tr>
+              <td><code>flipDirection</code></td>
+              <td><code>'horizontal' | 'vertical'</code></td>
+              <td><code>'horizontal'</code></td>
+              <td>Direction of the flip animation.</td>
+            </tr>
+          </tbody>
+        </table>
 
   <h2>License</h2>
   <p>This project is licensed under the ISC License.</p>
