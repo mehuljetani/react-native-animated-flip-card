@@ -1,0 +1,30 @@
+{
+  "name": "react-native-animated-flip-card",
+  "version": "1.0.0",
+  "description": "Flip animation (horizontal or vertical)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo Building package..."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehuljetani/react-native-animated-flip-card.git"
+  },
+  "author": "mehuljetani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehuljetani/react-native-animated-flip-card/issues"
+  },
+  "homepage": "https://github.com/mehuljetani/react-native-animated-flip-card#readme",
+  "keywords": [
+    "react-native",
+    "animated",
+    "flip",
+    "card",
+    "animation",
+    "horizontal",
+    "vertical",
+    "react-native-flip-card"
+  ]
+}
