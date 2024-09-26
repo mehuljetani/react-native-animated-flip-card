@@ -1,6 +1,6 @@
 {
   "name": "react-native-animated-flip-card",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Flip animation (horizontal or vertical)",
   "main": "index.js",
   "scripts": {
