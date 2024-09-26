@@ -89,10 +89,10 @@ export default App;
   <h2>Demo</h2>
   <p>Check out the demo of the component in action:</p>
   <p>Horizontal</p>
-  <img src="./src/assets/horizontal.gif" alt="Demo GIF" style="width: 160px; height: 350px">
+  <img src="https://miro.medium.com/v2/resize:fit:438/format:webp/1*AHPmoHUV7lyHD76_aTOyfA.gif" alt="Demo GIF" style="width: 160px; height: 350px">
 
   <p>Vertical</p>
-  <img src="./src/assets/verticle.gif" alt="Demo GIF" style="width: 160px; height: 350px">
+  <img src="https://miro.medium.com/v2/resize:fit:438/format:webp/1*6GVL_D2jJfqVkog0odNW3A.gif" alt="Demo GIF" style="width: 160px; height: 350px">
 
   <h2>Props</h2>
    <table
